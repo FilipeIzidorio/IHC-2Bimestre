@@ -1,0 +1,123 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f5ec; /* Verde bem claro para o fundo */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos e Cabeçalhos */
+h1, h2 {
+  color: #2d6a4f; /* Verde escuro para títulos */
+  text-align: center;
+}
+
+h3 {
+  color: #40916c; /* Tom mais suave de verde */
+}
+
+/* Inputs e Seletores */
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #74c69d; /* Verde intermediário */
+  border-radius: 4px;
+  background-color: #d8f3dc; /* Fundo verde claro */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #40916c; /* Verde mais forte ao focar */
+  outline: none;
+}
+
+/* Botões */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2d6a4f; /* Verde escuro */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1b4332; /* Verde ainda mais escuro para hover */
+}
+
+
+
+.onibus-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.assento {
+  width: 50px;
+  height: 50px;
+  background-color: #95d5b2; /* Verde claro */
+  color: #1b4332; /* Texto em verde escuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #2d6a4f; /* Verde escuro */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.assento:hover {
+  background-color: #52b788; /* Verde mais forte no hover */
+}
+
+.assento.selecionado {
+  background-color: #2d6a4f; /* Verde escuro ao selecionar */
+  color: white;
+}
+
+/* Histórico de Viagens */
+#historicoDiv {
+  margin-top: 20px;
+}
+
+#listaHistorico {
+  list-style: none;
+  padding: 0;
+}
+
+#listaHistorico li {
+  background-color: #d8f3dc; /* Fundo verde claro */
+  border: 1px solid #74c69d; /* Borda verde intermediário */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* Formulários e Labels */
+label {
+  color: #2d6a4f; /* Verde escuro para o texto */
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Ocultar elementos */
+.hidden {
+  display: none;
+}
